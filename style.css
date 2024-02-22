@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .header-navbar{
+    position: sticky ;
+    top: 0;
+    z-index: 10;
+} */
+.navbar {
+    background-color: rgb(83, 24, 24) !important; /* Replace #yourColorCode with your desired color */
+}
+
+
+/* .carouselExample{
+    width: 70%;
+    margin: auto;
+    color: black !important;
+}
+.carousel-item img {
+    height: 500px; /* Adjust the height as per your requirement */
+    /* object-fit: cover; This will ensure images cover the area without distorting aspect ratio */
+/* } */
+
+/* .section-carousel button{
+    background-color: black;
+} */ 
+
+
+/* Menu section */
+
+.menu-section .card{
+    margin: 10px;
+    margin-top: 30px;
+}
+
+
+.menu-section img{
+    /* height: 300px; */
+}
+
+.bouncing-card:hover{
+    cursor: pointer;
+    animation: bounce 1s 1 ;
+}
