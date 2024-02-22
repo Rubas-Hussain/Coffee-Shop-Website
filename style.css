@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    color: rgb(207, 206, 206) !important;
+    background-color: rgb(207, 206, 206) !important;
+}
 /* .header-navbar{
     position: sticky ;
     top: 0;
@@ -12,21 +15,7 @@
 .navbar {
     background-color: rgb(83, 24, 24) !important; /* Replace #yourColorCode with your desired color */
 }
-
-
-/* .carouselExample{
-    width: 70%;
-    margin: auto;
-    color: black !important;
-}
-.carousel-item img {
-    height: 500px; /* Adjust the height as per your requirement */
-    /* object-fit: cover; This will ensure images cover the area without distorting aspect ratio */
-/* } */
-
-/* .section-carousel button{
-    background-color: black;
-} */ 
+ 
 
 
 /* Menu section */
@@ -44,4 +33,18 @@
 .bouncing-card:hover{
     cursor: pointer;
     animation: bounce 1s 1 ;
+}
+
+/* Carousel Slider */
+.section-carousel{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-carousel img{
+    height: 300px ;
+    color: black !important;
+    border-radius: 10px;
+
 }
